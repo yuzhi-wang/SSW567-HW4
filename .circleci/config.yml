@@ -20,6 +20,6 @@ jobs:
       - store_test_results:
           path: test-results
 workflows:
-  ssw567:
+  HW4:
     jobs:
-      - github_api_build_deploy
+      - get_github_api
