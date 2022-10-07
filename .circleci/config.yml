@@ -1,22 +1,25 @@
 version: 2.1
 
-orbs: 
-    python: circleci/python@2.0.1
+orbs:
+  python: circleci/python@2.1
 
 jobs:
-  build-and-test:
+  github_api_build_deploy:
     docker:
       - image: cimg/python:3.10.2
     steps:
       - checkout
-      - run: 
+      - python/install-packages:
+          pkg-manager: pip
+          args: pytest
+      - run:
+          name: Run Test
           command: |
-            pip install pytest
+            pip install requests
             pytest --junitxml=test-results/junit.xml Testgetapi.py
       - store_test_results:
           path: test-results
-
 workflows:
-  get_github_api:
+  ssw567:
     jobs:
-      - build-and-test
+      - github_api_build_deploy
