@@ -13,8 +13,11 @@ class Testgetapi(unittest.TestCase):
     def testgetGapi(self):
         self.assertEqual(github_api('werwerwer'), False)
 
-    def testgetGapi(self):
+    def testgetGapi2(self):
         self.assertEqual(github_api('yuzhi-wang'), True)
+
+    def testgetGapi3(self):
+        self.assertEqual(github_api('asdfawefaf'), False)
 
 
 if __name__ == '__main__':
