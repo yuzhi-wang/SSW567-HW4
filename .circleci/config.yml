@@ -22,4 +22,4 @@ jobs:
 workflows:
   HW4:
     jobs:
-      - get_github_api
+      - build-and-test
