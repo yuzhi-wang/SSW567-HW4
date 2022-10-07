@@ -4,7 +4,7 @@ orbs:
   python: circleci/python@2.1
 
 jobs:
-  github_api_build_deploy:
+  build-and-test:
     docker:
       - image: cimg/python:3.10.2
     steps:
