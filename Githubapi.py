@@ -15,7 +15,7 @@ import json
 
 
 def github_api(userid):
-    response = requests.get("https://api.github.com" + "/users" + "/" + userid + "/repos")
+    response = requests.get("https://api.github.com/users/%s/repos" % userid)
     print(response.status_code)
 
     if response.status_code != 200:
@@ -29,10 +29,12 @@ def github_api(userid):
         print("0 repos exists ")
         return False
 
-    for repo in responsej:
-        get_repocommits = requests.get(repo['commits_url'].split("{")[0])
-        total_commits = get_repocommits.json()
-        print("Repository Name: " + repo['full_name'] + " \nNumber Of Commits: " + str(len(total_commits)))
+    for i in range(len(responsej)):
+        name = responsej[i]['full_name']
+        urlcommits = responsej[i]["commits_url"]
+        getcommits = requests.get(urlcommits.split("{")[0])
+        commitsnumber = len(getcommits.json())
+        print(name + "\nNumber of commits: " + str(commitsnumber))
 
     return True
 
