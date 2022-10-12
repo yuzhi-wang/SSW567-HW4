@@ -16,7 +16,7 @@ import json
 
 def github_api(userid):
     response = requests.get("https://api.github.com/users/%s/repos" % userid)
-    print(response.status_code)
+    # print(response.status_code)
 
     if response.status_code != 200:
         print("This userid is invalid")
