@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e679ffc9-b03e-4581-bb47-a0428928f837" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/SSW567-HW4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SSW567-HW4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Testgetapi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testgetapi.py" afterDir="false" />
     </list>
@@ -103,9 +105,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Python tests for Testgetapi.Testgetapi.test_mock_api2" />
-        <item itemvalue="Python tests.Python tests for Testgetapi.Testgetapi.testgetGapi2" />
         <item itemvalue="Python tests.Python tests for Testgetapi.Testgetapi" />
         <item itemvalue="Python tests.Python tests for Testgetapi.Testgetapi.test_mock_api1" />
+        <item itemvalue="Python tests.Python tests for Testgetapi.Testgetapi.testgetGapi2" />
         <item itemvalue="Python tests.Python tests in Testgetapi.py" />
       </list>
     </recent_temporary>
