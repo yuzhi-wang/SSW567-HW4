@@ -33,16 +33,6 @@ class Testgetapi(unittest.TestCase):
         else:
             print("Mock Test Success")
 
-    @mock.patch('Githubapi.github_api')
-    def test_mock_api2(self, mock_username3):
-        mock_username3.return_value = MagicMock(userid='werwerwer')
-        mockresult = mock_username3.return_value.userid
-        try:
-            self.assertEqual(mockresult, 'werwerwer')
-        except:
-            print("Mock Test Failed")
-        else:
-            print("Mock Test Success")
 
 
 if __name__ == '__main__':
