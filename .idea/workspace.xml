@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e679ffc9-b03e-4581-bb47-a0428928f837" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/SSW567-HW4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SSW567-HW4.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Testgetapi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testgetapi.py" afterDir="false" />
     </list>
@@ -13,7 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../SSW-567-python" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -31,7 +29,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/wyz-0/Documents/GitHub/SSW-567-python&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python tests.Python tests for Testgetapi.Testgetapi.test_mock_api2">
+  <component name="RunManager" selected="Python tests.Python tests in Testgetapi.py">
     <configuration name="Python tests for Testgetapi.Testgetapi" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="SSW567-HW4" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -104,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests in Testgetapi.py" />
         <item itemvalue="Python tests.Python tests for Testgetapi.Testgetapi.test_mock_api2" />
         <item itemvalue="Python tests.Python tests for Testgetapi.Testgetapi" />
         <item itemvalue="Python tests.Python tests for Testgetapi.Testgetapi.test_mock_api1" />
         <item itemvalue="Python tests.Python tests for Testgetapi.Testgetapi.testgetGapi2" />
-        <item itemvalue="Python tests.Python tests in Testgetapi.py" />
       </list>
     </recent_temporary>
   </component>

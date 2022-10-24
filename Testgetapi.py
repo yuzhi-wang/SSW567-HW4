@@ -19,9 +19,9 @@ class Testgetapi(unittest.TestCase):
 
     @mock.patch('Githubapi.github_api')
     def test_mock_api2(self, mock_username2):
-        mock_username2.return_value = MagicMock(userid='werwerwer')
-        mockresult = mock_username2.return_value.userid
-        self.assertEqual(mockresult, 'werwerwer')
+        mock_username2.return_value = MagicMock(commits='30')
+        mockresult = mock_username2.return_value.commits
+        self.assertEqual(mockresult, '30')
 
 
 if __name__ == '__main__':
